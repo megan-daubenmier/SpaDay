@@ -32,14 +32,13 @@ namespace SpaDay.Controllers
             return true;
 
         }
-
         public IActionResult Index()
         {
             return View();
         }
 
         [HttpPost]
-        [Route("/spa")]
+        [Route("/profile")]
         public IActionResult Menu(string name, string skintype, string manipedi)
         {
             ViewBag.client = name;

@@ -69,3 +69,26 @@ body {
   white-space: nowrap;
   line-height: 60px; /* Vertically center the text there */
 }
+
+/*Color options styling*/
+
+#pink{
+    height: 50px;
+    width: 50px;
+    float: left;
+    background-color: pink;
+}
+
+#lightPink {
+    height: 50px;
+    width: 50px;
+    float: left;
+    background-color: lightpink;
+}
+
+#purple {
+    height: 50px;
+    width: 50px;
+    float: left;
+    background-color: purple;
+}
