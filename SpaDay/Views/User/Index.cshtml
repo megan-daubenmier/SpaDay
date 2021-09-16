@@ -5,4 +5,7 @@
 }
 
 <h1>Welcome, @ViewBag.user!</h1>
-<a asp-controller="spa" asp-action="index">Customize Your Spa Day Here!</a>
+<a asp-controller="spa" asp-action="index">Customize Your Spa Day Here!</a><br /><br />
+<div>
+    <p>User Email: @ViewBag.email<br />Date Joined: @ViewBag.dateJoined</p>
+</div>
